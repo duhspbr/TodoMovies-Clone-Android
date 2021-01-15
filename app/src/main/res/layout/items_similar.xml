@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.SimilarMoviesActivity"
+    android:layout_margin="15dp">
+
+    <ImageView
+        android:id="@+id/similar_img"
+        android:layout_width="109dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="A Viagem de Chirilo"
+        android:layout_toRightOf="@+id/similar_img"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:text="1995"
+        android:layout_toRightOf="@+id/similar_img"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:text="Drama, Comédia"
+        android:layout_toRightOf="@+id/txtYear"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginStart="10dp"  />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#43EAE9E9"
+        android:layout_toRightOf="@+id/similar_img"
+        android:layout_alignParentBottom="true">
+    </View>
+</RelativeLayout>
+
